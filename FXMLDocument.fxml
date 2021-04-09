@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="561.0" prefWidth="757.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="telalogin1.FXMLController">
+    <children>
+      <ImageView fitHeight="561.0" fitWidth="763.0" layoutX="-3.0">
+         <image>
+            <Image url="@../telalogin1/gamer.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="20.0" layoutY="118.0" prefHeight="303.0" prefWidth="299.0" style="-fx-background-color: black;">
+         <children>
+            <TextField layoutX="72.0" layoutY="119.0" prefHeight="25.0" prefWidth="204.0" promptText="Email" />
+            <PasswordField layoutX="72.0" layoutY="183.0" prefHeight="25.0" prefWidth="204.0" promptText="Senha" />
+            <Button layoutX="23.0" layoutY="238.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" style="-fx-background-color: #76ff03; -fx-background-radius: 90;" text="Login" textAlignment="RIGHT" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="13.0" />
+               </font></Button>
+            <Label layoutX="90.0" layoutY="34.0" prefHeight="35.0" prefWidth="103.0" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="Tahoma Bold" size="36.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="103.0" layoutY="78.0" prefHeight="5.0" prefWidth="78.0" style="-fx-background-color: #76ff03;" />
+            <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="39.0" layoutY="117.0">
+               <image>
+                  <Image url="@../telalogin1/user_icon.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="32.0" fitWidth="30.0" layoutX="39.0" layoutY="178.0">
+               <image>
+                  <Image url="@../telalogin1/password_icon.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>
